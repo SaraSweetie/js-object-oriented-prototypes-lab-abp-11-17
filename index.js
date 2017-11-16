@@ -27,8 +27,7 @@ function BoardMember(name, homeState, training){
    this.homeState = homeState
    this.training = training
 }
- 
-User.prototype.sayHello = fveto = function(){
+
+User.prototype.sayHello = veto = function(){
     return 'No, I must disagree'
 }
- 
