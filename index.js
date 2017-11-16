@@ -28,6 +28,6 @@ function BoardMember(name, homeState, training){
    this.training = training
 }
 
-User.prototype.sayHello = veto = function(){
+User.prototype.veto = function(){
     return 'No, I must disagree'
 }
